@@ -1,0 +1,65 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  
+  background: #E0EAFC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #E0EAFC, #CFDEF3);
+  background: -moz-linear-gradient(right, #E0EAFC, #CFDEF3);
+  background: -o-linear-gradient(right, #E0EAFC, #CFDEF3);
+  background: linear-gradient(to left, #E0EAFC, #CFDEF3); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+p {
+  color: #200404;  
+}
+
+#appContainer {
+  padding: 3.7em 0.5em !important;
+}
+
+.body-container {
+  margin: 6rem 0 !important;
+}
+
+#appHeader a img{
+  width: 150px;
+}
+
+#appBody{
+  padding: 1em 0 0 1em;
+}
+
+#send{
+  margin-top: 2em;
+}
+
+.panel{
+  background-color: #fefefe !important;
+  margin: 0!important
+
+}
+
+.form-container {
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+}
+
+.color-1 {color: #ff2020;}
+.color-2 {color: #20ff20;}
+.color-3 {color: #2020ff;}
+
+@media only screen and (max-width: 700px) {
+  #appContainer {
+    padding: 1em !important;
+  }
+
+  .panel {
+    padding: 0 !important
+  }
+
+  #appBody {
+    padding: 1em 0 0 0 !important;
+  }
+}
